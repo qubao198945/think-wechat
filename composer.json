@@ -1,0 +1,26 @@
+{
+    "name": "qubao/think-wechat",
+    "description": "EasyWechat SDK For Thinkphp6.0",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "topthink/framework": "~6.0",
+        "overtrue/wechat": "~5.0"
+    },
+    "require-dev": {
+        "overtrue/socialite": "~3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Qubao\\ThinkWechat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "qubao",
+            "email": "1584716849@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
