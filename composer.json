@@ -22,5 +22,15 @@
             "email": "1584716849@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "think": {
+            "config": {
+                "wechat": "src/config.php"
+            },
+            "services": [
+                "Qubao\\ThinkWechat\\Service"
+            ]
+        }
+    }
 }
