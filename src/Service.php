@@ -14,13 +14,13 @@ use think\Service as ThinkService;
 class Service extends ThinkService
 {
     protected $apps = [
-        'officialAccount' => OfficialAccount::class,
+        'official_account' => OfficialAccount::class,
         'payment' => Payment::class,
-        'miniProgram' => MiniProgram::class,
-        'openPlatform' => OpenPlatform::class,
+        'mini_program' => MiniProgram::class,
+        'open_platform' => OpenPlatform::class,
         'work' => Work::class,
-        'openWork' => OpenWork::class,
-        'microMerchant' => MicroMerchant::class
+        'open_work' => OpenWork::class,
+        'micro_merchant' => MicroMerchant::class
     ];
 
     public function register()
