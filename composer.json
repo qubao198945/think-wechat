@@ -1,6 +1,6 @@
 {
     "name": "qubao/think-wechat",
-    "description": "EasyWechat SDK For Thinkphp6.0",
+    "description": "Easywechat SDK For Thinkphp6.0",
     "type": "library",
     "require": {
         "php": ">=7.4",

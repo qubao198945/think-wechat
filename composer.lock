@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589"
+                "reference": "a3a20779541ca1ae73d0d3766a83c33d14468f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/de6f1e58e735754b888649495ed4cb9ae3b19589",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a3a20779541ca1ae73d0d3766a83c33d14468f9e",
+                "reference": "a3a20779541ca1ae73d0d3766a83c33d14468f9e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -85,7 +85,8 @@
                 "guzzlehttp/promises": "^1.4",
                 "guzzlehttp/psr7": "^1.7 || ^2.0",
                 "php": "^7.2.5 || ^8.0",
-                "psr/http-client": "^1.0"
+                "psr/http-client": "^1.0",
+                "symfony/deprecation-contracts": "^2.2"
             },
             "provide": {
                 "psr/http-client-implementation": "1.0"
@@ -168,7 +169,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T14:07:59+00:00"
+            "time": "2021-07-17T23:05:34+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -718,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/w7corp/easywechat.git",
-                "reference": "d7f3505ca21c1297f7dac4a8250636cc9212967f"
+                "reference": "18a64c397c95bb5fb18e9a394b11c71be127984f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/w7corp/easywechat/zipball/d7f3505ca21c1297f7dac4a8250636cc9212967f",
-                "reference": "d7f3505ca21c1297f7dac4a8250636cc9212967f",
+                "url": "https://api.github.com/repos/w7corp/easywechat/zipball/18a64c397c95bb5fb18e9a394b11c71be127984f",
+                "reference": "18a64c397c95bb5fb18e9a394b11c71be127984f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -801,7 +802,7 @@
             ],
             "support": {
                 "issues": "https://github.com/w7corp/easywechat/issues",
-                "source": "https://github.com/w7corp/easywechat/tree/5.6.4"
+                "source": "https://github.com/w7corp/easywechat/tree/5.x"
             },
             "funding": [
                 {
@@ -817,7 +818,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-07-15T10:23:59+00:00"
+            "time": "2021-07-18T06:05:14+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -1397,12 +1398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "fb73b4af21f9dbf8c37e227fef5a5e0195317d61"
+                "reference": "e8f342af177cc6dc49790b2cf47af555f2445a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/fb73b4af21f9dbf8c37e227fef5a5e0195317d61",
-                "reference": "fb73b4af21f9dbf8c37e227fef5a5e0195317d61",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/e8f342af177cc6dc49790b2cf47af555f2445a69",
+                "reference": "e8f342af177cc6dc49790b2cf47af555f2445a69",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1414,7 +1415,7 @@
             "require": {
                 "php": ">=7.2.5",
                 "psr/cache": "^1.0|^2.0",
-                "psr/log": "^1.1",
+                "psr/log": "^1.1|^2|^3",
                 "symfony/cache-contracts": "^1.1.7|^2",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-php80": "^1.15",
@@ -1491,7 +1492,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-15T09:09:54+00:00"
+            "time": "2021-07-18T16:31:21+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -1658,12 +1659,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9f952ed1c409b8b29b7852d7c14305f9a6e4813c"
+                "reference": "bb92d0d323824c0770c9f439f7db0a1a819adb3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9f952ed1c409b8b29b7852d7c14305f9a6e4813c",
-                "reference": "9f952ed1c409b8b29b7852d7c14305f9a6e4813c",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bb92d0d323824c0770c9f439f7db0a1a819adb3c",
+                "reference": "bb92d0d323824c0770c9f439f7db0a1a819adb3c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1686,7 +1687,7 @@
                 "symfony/event-dispatcher-implementation": "2.0"
             },
             "require-dev": {
-                "psr/log": "~1.0",
+                "psr/log": "^1|^2|^3",
                 "symfony/config": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
                 "symfony/error-handler": "^4.4|^5.0|^6.0",
@@ -1741,7 +1742,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-14T17:08:02+00:00"
+            "time": "2021-07-18T15:35:11+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -1834,12 +1835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "e51bb607000ae4fc15be784b09903d96135b379e"
+                "reference": "36a5945b5c0c1b1e0eb4bddc6f617db3bc47ed95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e51bb607000ae4fc15be784b09903d96135b379e",
-                "reference": "e51bb607000ae4fc15be784b09903d96135b379e",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/36a5945b5c0c1b1e0eb4bddc6f617db3bc47ed95",
+                "reference": "36a5945b5c0c1b1e0eb4bddc6f617db3bc47ed95",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1905,7 +1906,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-15T21:38:26+00:00"
+            "time": "2021-07-18T16:31:21+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
