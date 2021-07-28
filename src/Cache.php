@@ -14,7 +14,7 @@ class Cache implements CacheInterface
 
     public function get($key, $default = null)
     {
-        return $this->cahce->get($key, $default);
+        return $this->cache->get($key, $default);
     }
     public function set($key, $value, $ttl = null)
     {
